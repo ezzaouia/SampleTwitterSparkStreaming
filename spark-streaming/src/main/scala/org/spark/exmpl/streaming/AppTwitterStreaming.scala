@@ -34,10 +34,10 @@ object AppTwitterStreaming {
     // Set the twitter properties to generate OAuth credentials
     val confgbuilder = new ConfigurationBuilder()
       .setDebugEnabled(true)
-      .setOAuthConsumerKey("CIj0W2hOxXKjH9GjaHrHqCceO")
-      .setOAuthConsumerSecret("TjQbNucsfnVo8kufSWtYSomfzjWsr4f05hhjB8dGBGWKVdDW9P")
-      .setOAuthAccessToken("1491121548-rkbgplMNZUxViVX9VY43chOkPBwBPpVcLlR1v01")
-      .setOAuthAccessTokenSecret("I4Bo0EqMcLOB0wrPJba6RdcKpWO4w12TWyzZnfdV53iBh")
+      .setOAuthConsumerKey("")
+      .setOAuthConsumerSecret("")
+      .setOAuthAccessToken("")
+      .setOAuthAccessTokenSecret("")
       .build()
 
     val twitterFactory = new TwitterFactory(confgbuilder)
